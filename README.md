@@ -1,4 +1,4 @@
 # HR-management-system
 Management System
 
-# first create index,accounting html files 
+# first, (Lab 07) creating pages and constructor
