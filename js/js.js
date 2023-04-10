@@ -12,7 +12,7 @@ function Employee(employeeId, fullName, department, level, salary) {
 }
 
 //prototype to calculate salary
-Employee.prototype.csalary = function () {
+Employee.prototype.csalary = function () { 
     if (this.level == 'Senior') {
         let s = Math.floor((Math.random() * (2000 - 1500) + 1500));
         this.salary = (Math.floor(s - (s * (7.5 / 100))));
