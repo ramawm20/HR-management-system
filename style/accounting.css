@@ -2,7 +2,7 @@ body {
     background-color: #DBE4C6;
     display: flex;
     flex-direction: column;
-    
+
 
 }
 
@@ -11,10 +11,12 @@ header {
     background-color: #94AF9F;
     top: 0;
     display: flex;
+    position: fixed;
     width: 100%;
     height: 100px;
+    margin-bottom: 40px;
 
-} 
+}
 
 img {
     width: 100px;
@@ -68,9 +70,11 @@ img {
 
 
 }
-main{
-   width: 100%;
-   
+
+main {
+    width: 100%;
+    margin-top: 100px;
+
 }
 
 
@@ -111,18 +115,84 @@ a:active {
 
 
 footer {
-   background-color: #94AF9F;
-   bottom: 0;
-   position: fixed;
-   display: flex;
-   width: 100%;
-   justify-content: space-around;
-   
+    background-color: #94AF9F;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
 }
-main{
-   display: flex;
-   flex-direction: column;
-   width: 100%;
-   margin-bottom: 110px;
-   
+
+
+
+/* lab 08 part 2 */
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 110px;
+
+}
+
+
+#first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: auto;
+
+}
+
+legend {
+    color: #00425A;
+    font-size: 40px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #94AF9F;
+    padding: 20px;
+    border-radius: 40px;
+    border: none;
+
+}
+
+
+label,
+select,
+option {
+    font-size: 30px;
+    border-radius: 30px;
+    color: #00425A;
+}
+
+select {
+    margin-top: 10px;
+}
+
+input {
+    font-size: 30px;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-top: 10px;
+
+}
+
+input[type="submit"] {
+    display: block;
+    width: 50%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 20px;
+    color: #94AF9F;
+    background-color: #00425A;
+    border-color: white;
+    min-width: 200px;
+
 }
