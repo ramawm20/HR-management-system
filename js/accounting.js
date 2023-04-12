@@ -10,9 +10,10 @@ function Employee(employeeId, fullName, department, level, imageUrl, salary) {
     this.fullName = fullName;
     this.department = department;
     this.level = level;
-    this.imageUrl = `../photos/${this.fullName}.jpg`
+    this.imageUrl = `./photos/${this.fullName}.jpg`
     this.salary = salary;
 }
+
 
 //Render
 Employee.prototype.render = function () {
