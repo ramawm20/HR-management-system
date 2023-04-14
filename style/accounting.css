@@ -137,7 +137,7 @@ main {
 }
 
 
-#first {
+/* #first {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -195,4 +195,4 @@ input[type="submit"] {
     border-color: white;
     min-width: 200px;
 
-}
+} */

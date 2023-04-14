@@ -125,3 +125,65 @@ main{
     margin-bottom: 110px;
     
 }
+
+/* lab 09 */
+
+#first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: auto;
+
+}
+
+legend {
+    color: #00425A;
+    font-size: 40px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #94AF9F;
+    padding: 20px;
+    border-radius: 40px;
+    border: none;
+
+}
+
+
+label,
+select,
+option {
+    font-size: 30px;
+    border-radius: 30px;
+    color: #00425A;
+}
+
+select {
+    margin-top: 10px;
+}
+
+input {
+    font-size: 30px;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-top: 10px;
+
+}
+
+input[type="submit"] {
+    display: block;
+    width: 50%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 20px;
+    color: #94AF9F;
+    background-color: #00425A;
+    border-color: white;
+    min-width: 200px;
+
+}
